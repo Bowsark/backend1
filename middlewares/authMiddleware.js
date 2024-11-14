@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs'); // Update to bcryptjs
+const bcryptjs = require('bcryptjs'); // Update to bcryptjs
 
 
 const authMiddleware = (req, res, next) => {
